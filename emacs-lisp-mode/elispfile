@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: elisp-file
+# key: elisp-file
+# --
+;;; ${1: package-name} --- ${2: package-describe} -*- lexical-binding: t; -*-
+
+;;; Commentary:
+${3: comment}
+;;; Code:
+$0
+;;; ${4: package-name} ends here

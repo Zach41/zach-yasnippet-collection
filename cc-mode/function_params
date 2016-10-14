@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: function_params
+# key: function_params
+# --
+/**
+ * ${1: function name} - ${2: function description}
+ * @param ${3: add param description here}
+ *
+ * @return ${4: return description}
+ */
+$0
