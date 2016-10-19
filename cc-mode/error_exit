@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: error_exit
+# key: error_exit
+# --
+perror("${1: error message}");
+exit(-1);
